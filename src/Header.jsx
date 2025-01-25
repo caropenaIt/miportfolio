@@ -4,7 +4,7 @@ import React from 'react';
 const Header = () => {
   return (
     <header>
-      <img src="./src/assets/logo-dos.png" alt="Logo" className='logo' />
+      <img src="/assets/logo-dos.png" alt="Logo" className='logo' />
       <h1>Carolina Alejandra Pena Astigarraga</h1>
       <h3>Portfolio: Desarrollador Frontend - Tester QA Manual</h3>
       <nav>
