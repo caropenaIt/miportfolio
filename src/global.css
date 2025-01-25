@@ -1,0 +1,245 @@
+/* Arreglos generales */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+:root{
+  --color-detalle: rgb(245, 245, 220);
+  --color-fondo: whitesmoke;
+  --color-titulo: rgb(0, 51, 102);
+  --color-texto: rgb(51, 51, 51);
+  --color-boton: rgb(255, 102, 0);
+}
+
+*{
+  margin: 0 ;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+}
+h2,h3{
+  color: var(--color-titulo);
+  font-family: "Rubik", sans-serif;
+}
+h3{
+  padding: 10px;
+}
+h4{
+  text-decoration: underline 2px;
+}
+header{
+  background-color: var(--color-titulo);
+  padding: 1rem;
+}
+footer{
+  color: var(--color-fondo);
+  background-color: var(--color-titulo);
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+header h1,h3{
+  color: var(--color-fondo);
+  font-family: "Rubik", sans-serif;
+}
+.logo{
+  width: 200px;
+  height: 150px;
+
+}
+
+nav a{
+  margin: 0 1rem;
+  text-decoration: none;
+  color: var(--color-boton);
+  background-color: var(--color-titulo);
+}
+nav a:hover{
+  background-color: var(--color-detalle);
+  border-radius: 5px;
+}
+
+a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: var(--color-boton);
+  background-color:navajowhite;
+}
+/* About-Quien soy */
+.retrato{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-titulo);
+  color: var(--color-fondo);
+  box-shadow: 5px 5px 5px 5px rgb(8, 7, 7);
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.retrato img{
+  width: 300px;
+  height: 300px;
+  padding: 15px;
+}
+.retratoBis{
+  display: flex;
+  flex-direction: column;
+}
+section {
+  padding: 2rem;
+  border-bottom: 1px solid var(--color-titulo);
+}
+.boton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px;
+}
+.boton a{
+  color: var(--color-boton);
+  background-color: var(--color-titulo);
+  width: 135px;
+  border-radius: 10px;
+}
+
+.boton a:hover{
+background-color: var(--color-detalle);
+}
+/* Projects-Mis páginas web */
+.tarjetitas{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  
+}
+.tarjetitas article{
+  padding: 10px;
+  width: 640px;
+  margin-top: 10px;
+  background-color: var(--color-titulo);
+  color: var(--color-fondo);
+  box-shadow: 5px 5px 5px 5px rgb(8, 7, 7);
+  border-radius: 10px;
+}
+#projects p{
+  padding: 5px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#projects img{
+  width: 600px;
+  height: 200px;
+  margin: 5px;
+  padding: 5px;
+  transition: 600ms;
+}
+#projects img:hover{
+  transform: scale(1.4);
+  
+}
+
+
+/* Contact-Contacto */
+ul{
+  list-style-type: none;
+}
+.loguitos{
+  width: 20px;
+  height: 20px;
+  gap: 15px;
+}
+
+/* Responsive */
+
+@media (min-width: 390px) and (max-width: 600px){
+  p{
+    font-size: 14px;
+  }
+.retrato{
+  flex-wrap: wrap;
+}
+.retrato p{
+  padding: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.tarjetitas article{
+width: 340px;
+}
+#projects img{
+  width: 320px;
+  height: 320px;
+}
+#projects p{
+  padding: 5px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.boton{
+  padding: 5px;
+
+}
+
+nav{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+}
+
+@media (min-width: 601px) and (max-width: 800px){
+  nav{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .boton a{
+  border-radius: 10px;
+  }
+  .retrato{
+    flex-wrap: wrap;
+  }
+  .retrato p{
+    padding: 5px;
+  }
+  .tarjetitas{
+    flex-wrap: wrap;
+  }
+  .tarjetitas article{
+    width: 500px;
+    }
+    #projects img{
+      width: 400px;
+      height: 400px;
+    }
+    #projects p{
+      padding: 5px;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+@media (min-width: 801px) and (max-width: 1100px){
+  .retrato p{
+    padding: 5px;
+    margin-top: 10px;
+  }
+  #projects img{
+    width: 520px;
+    height: 520px;
+  }
+  .tarjetitas{
+    flex-wrap: wrap;
+  }
+}

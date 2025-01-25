@@ -1,0 +1,65 @@
+[
+    {
+    "id": 1,
+    "imagen": "../src/assets/hamburguesas.png",
+    "nombre": "Las Hamburguesas + Ricas",
+    "descripcion": "Mi primer sitio web, creado para el curso de Desarrollo Web de CoderHouse en 2022. El mismo trata de una hamburguesería ficticia que cuenta con varias secciones como el menú, contacto, entre otros.",
+    "tecnologias": ["HTML", "CSS", "SASS/SCSS", "BootStrap."],
+    "web": "https://las-hamburguesas-mas-ricas.netlify.app/",
+    "repositorio": "https://github.com/caropenaIt/Hamburguesas-Coder-CPena"
+    },
+
+    {
+        "id": 2,
+        "imagen": "../src/assets/amazing-events.png",
+        "nombre": "Amazing Events",
+        "descripcion": "Sitio web creado en el bootcamp de frontend de Mindhub X Argentina Programa 4.0. página sobre eventos de todo tipo. Incluye detalles, filtros y un buscador. Hecho en el año 2023.",
+        "tecnologias": ["HTML", "CSS", "JavaScript."],
+        "web": "https://amazingevents-mindhub-project.netlify.app/",
+        "repositorio": "https://github.com/caropenaIt/AMAZINGEVENTS_Pena-Astigarraga"
+    },
+
+    {
+        "id": 3,
+        "imagen": "../src/assets/mdhl.png",
+        "nombre": "Mighty Ducks Hockey League-MDHL",
+        "descripcion": "Sitio web creado en el bootcamp de frontend de Mindhub X Argentina Programa 4.0; es acerca de un club de hockey sobre hielo donde se aplicaron estilos básicos de CSS. Año 2023.",
+        "tecnologias": ["HTML", "CSS."],
+        "web": "https://mdhl-mindhubproyect.netlify.app/",
+        "repositorio": "https://github.com/caropenaIt/MDHL_Pena_Astigarraga"
+    },
+
+    {
+        "id": 4,
+        "imagen": "../src/assets/mercado-caro.png",
+        "nombre": "Mercado Caro",
+        "descripcion": "Sitio estilo e-commerce de ropa. Filtra por tipo de vestimenta; añade productos al carrito y podés 'comprar'. Los datos de los productos vienen de una base de datos en Firebase. Hecho para Coderhouse por la Carrera de Desarrollo Frontend React 2024(curso React JS).",
+        "tecnologias": ["HTML", "CSS", "JavaScript", "React JS."],
+        "web": "https://mercado-caro.netlify.app/",
+        "repositorio": "https://github.com/caropenaIt/e-commerce_con_React_Coderhouse"
+    },
+
+    { "id": 5,
+    "imagen": "../src/assets/turnos-hair-salon.png",
+    "nombre": "Turnos Hair Salon",
+    "descripcion": "Simulador para sacar turnos en una peluquería; los datos del turno se guardan en el local storage. Hecho para Coderhouse por la Carrera de Desarrollo Frontend React 2024(curso JavaScript).",
+    "tecnologias": ["HTML", "CSS", "JavaScript."],
+    "web": "https://turnos-peluqueria-hair-saloon.netlify.app/",
+    "repositorio": "https://github.com/caropenaIt/simulador-turnos-JS-CoderHouse-CaroPena"},
+
+    { "id": 6,
+    "imagen": "../src/assets/cabanas-la-colmena.png",
+    "nombre": "Cabañas La Colmena",
+    "descripcion": "Sitio web sobre un complejo de cabañas en el sur de mi pais(Argentina, ficticio). Hecho para Coderhouse por la Carrera de Desarrollo Frontend React 2024(curso Desarrollo Web).",
+    "tecnologias": ["HTML", "CSS", "SASS/SCSS", "BootStrap."],
+    "web": "https://cabanas-la-colmena.netlify.app/",
+    "repositorio": "https://github.com/caropenaIt/Cabanas-la-colmena-Coderhouse-desarrollo-web"},
+
+    { "id": 7,
+    "imagen": "../src/assets/fashion-clothes.png",
+    "nombre": "Fashion Clothes",
+    "descripcion": "Proyecto del sector frontend del curso Full Stack JavaScript-Node Js de Codo a Codo 4.0. Se creó, como trabajo grupal formado por Carolina Pena y Renzo Totesaut, Un sitio web donde se aplicó HTML,CSS y JavaScript(como validador de formulario). El sitio se llama 'Fashion Clothes', un e-comerce de ropa.",
+    "tecnologias": ["HTML", "CSS", "JavaScript."],
+    "web": "https://fashions-clothes.netlify.app/",
+    "repositorio": "https://github.com/caropenaIt/Proyecto-frontend-Codo-a-Codo-4.0-Pena-Totesaut"}
+]

@@ -1,0 +1,42 @@
+[
+    {
+    "id": 1,
+    "imagenUno": "../src/assets/provinciano-casos.png",
+    "imagenDos":"../src/assets/provinciano-defectos.png",
+    "nombre": "Provinciano Evolution",
+    "descripcion": "Web-app de la fundación Proyecto Nahual que muestra un listado de las provincias y algunos datos sobre ellas. Se pueden filtrar y descargar la información.",
+    "web": "https://nahual.github.io/qc-provinciano-evolution/provinciano.html?v=1",
+    "especificaciones":"https://nahual.github.io/qc-provinciano-evolution/especificaciones.html",
+    "repositorio": "https://github.com/caropenaIt/portfolio-testing/tree/main/Testing%20Coca-Cola%20y%20Chicos.Net/Provinciano%20evolution"
+    },
+{
+    "id": 2,
+    "imagenUno": "../src/assets/casos-prueba-contactos.png",
+    "imagenDos":"../src/assets/defectos-contactos.png",
+    "nombre": "Contactos",
+    "descripcion": "Web-app de la fundación Proyecto Nahual para añadir, eliminar y modificar una lista de contactos.",
+    "web": "https://nahual.github.io/qc-contactos/contactos.html?v=1",
+    "especificaciones":"https://nahual.github.io/qc-contactos/especificaciones.html",
+    "repositorio": "https://github.com/caropenaIt/portfolio-testing/tree/main/Testing%20Coca-Cola%20y%20Chicos.Net/Contactos%20Nahual"
+},
+{
+    "id": 3,
+    "imagenUno": "../src/assets/casos-prueba-celfar.png",
+    "imagenDos":"../src/assets/defectos-celfar.png",
+    "nombre": "Celfar",
+    "descripcion": "Web-app de la fundación Proyecto Nahual que convierte números en grados celsius a grados Fahrenheit.",
+    "web": "https://nahual.github.io/qc-celfar/",
+    "especificaciones":"nahual.github.io/qc-celfar/especificaciones.html",
+    "repositorio": "https://github.com/caropenaIt/portfolio-testing/tree/main/Testing%20Coca-Cola%20y%20Chicos.Net/Celfar"
+},
+{
+    "id": 4,
+    "imagenUno": "../src/assets/caso-prueba-demoblaze.png",
+    "imagenDos":"../src/assets/defecto-demoblaze.png",
+    "nombre": "Demoblaze",
+    "descripcion": "Web-app de un e-commerce con sus funciones básicas como tal(carrito, compras, filtro de productos, etc.).",
+    "web": "https://www.demoblaze.com/",
+    "especificaciones":"https://drive.google.com/file/d/1gwAmVKgZ1X-3mSZQ16KFiEv4YWVQ-kxI/view?usp=sharing",
+    "repositorio": "https://github.com/caropenaIt/portfolio-testing/tree/main/Testing%20Coca-Cola%20y%20Chicos.Net/Celfar"
+    }
+]
