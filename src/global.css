@@ -52,7 +52,6 @@ header h1,h3{
 .logo{
   width: 200px;
   height: 150px;
-
 }
 
 nav a{
@@ -67,7 +66,6 @@ nav a:hover{
 }
 
 a {
-  margin: 0 1rem;
   text-decoration: none;
   color: var(--color-boton);
   background-color:navajowhite;
@@ -162,24 +160,38 @@ ul{
 
 /* Responsive */
 
-@media (min-width: 390px) and (max-width: 600px){
+@media (min-width: 320px) and (max-width: 550px){
   p{
     font-size: 14px;
   }
+  .logo{
+    width: 140px;
+    height: 150px;
+  }
 .retrato{
   flex-wrap: wrap;
+  width: 270px;
+}
+.retrato img{
+  width: 200px;
+  height: 200px;
 }
 .retrato p{
   padding: 5px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 .tarjetitas article{
-width: 340px;
+width: 270px;
+}
+.boton{
+  padding: 5px;
+  gap: 5px;
+  font-size: 12px;
 }
 #projects img{
-  width: 320px;
-  height: 320px;
+  width: 220px;
+  height: 220px;
 }
 #projects p{
   padding: 5px;
@@ -196,9 +208,10 @@ nav{
   flex-direction: column;
   gap: 10px;
 }
+
 }
 
-@media (min-width: 601px) and (max-width: 800px){
+@media (min-width: 551px) and (max-width: 750px){
   nav{
     display: flex;
     flex-direction: column;
@@ -230,7 +243,7 @@ nav{
     }
   }
 
-@media (min-width: 801px) and (max-width: 1100px){
+@media (min-width: 751px) and (max-width: 1100px){
   .retrato p{
     padding: 5px;
     margin-top: 10px;
