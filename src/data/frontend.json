@@ -58,8 +58,16 @@
     { "id": 7,
     "imagen": "assets/fashion-clothes.png",
     "nombre": "Fashion Clothes",
-    "descripcion": "Proyecto del sector frontend del curso Full Stack JavaScript-Node Js de Codo a Codo 4.0. Se creó, como trabajo grupal formado por Carolina Pena y Renzo Totesaut, Un sitio web donde se aplicó HTML,CSS y JavaScript(como validador de formulario). El sitio se llama 'Fashion Clothes', un e-comerce de ropa.",
+    "descripcion": "Proyecto del sector frontend del curso Full Stack JavaScript-Node Js de Codo a Codo 4.0. Se creó, como trabajo grupal formado por Carolina Pena y Renzo Totesaut, Un sitio web donde se aplicó HTML,CSS y JavaScript(como validador de formulario). El sitio se llama 'Fashion Clothes', un e-comerce de ropa. 2024",
     "tecnologias": ["HTML", "CSS", "JavaScript."],
     "web": "https://fashions-clothes.netlify.app/",
-    "repositorio": "https://github.com/caropenaIt/Proyecto-frontend-Codo-a-Codo-4.0-Pena-Totesaut"}
+    "repositorio": "https://github.com/caropenaIt/Proyecto-frontend-Codo-a-Codo-4.0-Pena-Totesaut"},
+
+    { "id": 8,
+    "imagen": "assets/domo-frontend.png",
+    "nombre": "DOMO Frontend Challenge",
+    "descripcion": "Landing Page creada para la empresa DOMO como parte del desafío técnico 'Domo Frontend Challenge'; el cual consistía crear una landing page imitando el modelo de la imagen elegida. Febrero 2025.",
+    "tecnologias": ["HTML", "CSS", "JavaScript", "BootStrap."],
+    "web": "https://carolinapena-challenge-frontend-domo1.netlify.app/",
+    "repositorio": "https://github.com/caropenaIt/domofrontendchallenge-test1"}
 ]
