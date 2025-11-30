@@ -5,18 +5,22 @@ import Projects from './Projects';
 import Testing from './Testing';
 import Contact from './Contact';
 import Footer from './Footer';
-import frontend from './data/frontend.json'; 
+import { Routes, Route } from 'react-router-dom';
+
 const App = () => {
   return (
     <div>
       <Header />
       <main>
-        <About />
-        <Projects />
-        <Testing />
-        <Contact />
-        <Footer />
+        <Routes>
+          <Route path="/" element={<About />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/testing" element={<Testing />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
       </main>
+      <Footer />
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import React from 'react';
 import frontend from './data/frontend.json'; 
-
+import './styles/Proyects.css';
 
 const Projects = () => {
   return (

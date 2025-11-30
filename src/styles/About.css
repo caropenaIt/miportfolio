@@ -1,0 +1,95 @@
+/* About-Quien soy */
+.retrato{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-titulo);
+  color: var(--color-fondo);
+  box-shadow: 5px 5px 5px 5px rgb(8, 7, 7);
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.retrato img{
+  width: 300px;
+  height: 300px;
+  padding: 15px;
+}
+.retratoBis{
+  display: flex;
+  flex-direction: column;
+}
+section {
+  padding: 2rem;
+  border-bottom: 1px solid var(--color-titulo);
+}
+.boton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px;
+}
+.boton a{
+  color: var(--color-boton);
+  background-color: var(--color-titulo);
+  width: 135px;
+  border-radius: 10px;
+}
+
+.boton a:hover{
+background-color: var(--color-detalle);
+}
+
+@media (min-width: 320px) and (max-width: 550px){
+
+.retrato{
+  flex-wrap: wrap;
+  width: 270px;
+}
+.retrato img{
+  width: 200px;
+  height: 200px;
+}
+.retrato p{
+  padding: 5px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.boton{
+  padding: 5px;
+  gap: 5px;
+  font-size: 12px;
+}
+
+.boton{
+  padding: 5px;
+
+}
+
+
+
+}
+
+/* RESPONSIVE */
+@media (min-width: 551px) and (max-width: 750px){
+
+  .boton a{
+  border-radius: 10px;
+  }
+  .retrato{
+    flex-wrap: wrap;
+  }
+  .retrato p{
+    padding: 5px;
+  }
+
+  }
+
+@media (min-width: 751px) and (max-width: 1100px){
+  .retrato p{
+    padding: 5px;
+    margin-top: 10px;
+  }
+
+}

@@ -1,0 +1,114 @@
+/* Estilos para Proyects.jsx y Testing.jsx *//* Projects-Mis páginas web */
+.tarjetitas{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  
+}
+.tarjetitas article{
+  padding: 10px;
+  width: 640px;
+  margin-top: 10px;
+  background-color: var(--color-titulo);
+  color: var(--color-fondo);
+  box-shadow: 5px 5px 5px 5px rgb(8, 7, 7);
+  border-radius: 10px;
+}
+#projects p{
+  padding: 5px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#projects img{
+  width: 600px;
+  height: 200px;
+  margin: 5px;
+  padding: 5px;
+  transition: 600ms;
+}
+#projects img:hover{
+  transform: scale(1.4);
+  
+}
+
+/* disable */
+.boton-disabled {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #ccc;
+  color: #666;
+  border-radius: 4px;
+  cursor: not-allowed;
+  margin: 0 4px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Responsive */
+
+@media (min-width: 320px) and (max-width: 550px){
+  p{
+    font-size: 14px;
+    }
+
+.tarjetitas article{
+width: 270px;
+}
+.boton{
+  padding: 5px;
+  gap: 5px;
+  font-size: 12px;
+}
+#projects img{
+  width: 220px;
+  height: 220px;
+}
+#projects p{
+  padding: 5px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.boton{
+  padding: 5px;
+
+}
+
+
+}
+
+@media (min-width: 551px) and (max-width: 750px){
+
+  .boton a{
+  border-radius: 10px;
+  }
+
+  .tarjetitas{
+    flex-wrap: wrap;
+  }
+  .tarjetitas article{
+    width: 500px;
+    }
+    #projects img{
+      width: 400px;
+      height: 400px;
+    }
+    #projects p{
+      padding: 5px;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+@media (min-width: 751px) and (max-width: 1100px){
+
+  #projects img{
+    width: 520px;
+    height: 520px;
+  }
+  .tarjetitas{
+    flex-wrap: wrap;
+  }
+}
