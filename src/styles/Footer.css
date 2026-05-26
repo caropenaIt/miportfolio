@@ -1,19 +1,37 @@
 footer{
   color: var(--color-fondo);
-  background-color: var(--color-titulo);
-  padding: 1rem;
+  background: linear-gradient(135deg, var(--color-titulo) 0%, var(--color-hover) 100%);
+  padding: 2rem 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 17px;
+  box-shadow: 0 -4px 15px rgba(26, 58, 82, 0.2);
+  text-align: center;
+}
+
+footer a {
+  color: var(--color-boton);
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+footer a:hover {
+  color: white;
+  text-shadow: 0 0 10px rgba(255, 122, 61, 0.5);
 }
 
 /* Responsive */
 
-/* @media (min-width: 320px) and (max-width: 550px){
-
-
-} */
+@media (min-width: 320px) and (max-width: 550px){
+footer{
+  flex-direction: column;
+  gap: 10px;
+.boton a{
+  padding: 28px;
+}
+}
+}
 
 /* @media (min-width: 551px) and (max-width: 750px){
 

@@ -33,7 +33,7 @@
         "id": 4,
         "imagen": "assets/mercado-caro.png",
         "nombre": "Mercado Caro",
-        "descripcion": "Sitio estilo e-commerce de ropa. Filtra por tipo de vestimenta; añade productos al carrito y podés 'comprar'. Los datos de los productos vienen de una base de datos en Firebase. Hecho para Coderhouse por la Carrera de Desarrollo Frontend React 2024(curso React JS).",
+        "descripcion": "MEJOR PROYECTO🥇\nSitio estilo e-commerce de ropa. Filtra por tipo de vestimenta; añade productos al carrito y podés 'comprar'. Los datos de los productos vienen de una base de datos en Firebase. Hecho para Coderhouse por la Carrera de Desarrollo Frontend React 2024(curso React JS).",
         "tecnologias": ["HTML", "CSS", "JavaScript", "React JS."],
         "web": "https://mercado-caro.netlify.app/",
         "repositorio": "https://github.com/caropenaIt/e-commerce_con_React_Coderhouse"
@@ -74,7 +74,7 @@
     { "id": 9,
     "imagen": "assets/crear-pacientes.png",
     "nombre": "Crear Pacientes - MakiSan Tech",
-    "descripcion": "Menú para creación y visualización de pacientes. Hecho con React JS para MakiSan Tech. Sólo se puede crear los pacientes y verlos a detalle en la ficha, en el listado completo(con paginación incluído). Los datos se guardan en localStorage. Proyecto para el sistema odontológico en MakiSan Tech. Abril-Junio 2025.",
+    "descripcion": "MEJOR PROYECTO🥇\nMenú para creación y visualización de pacientes. Hecho con React JS para MakiSan Tech. Sólo se puede crear los pacientes y verlos a detalle en la ficha, en el listado completo(con paginación incluído). Los datos se guardan en localStorage. Proyecto para el sistema odontológico en MakiSan Tech. Abril-Junio 2025.",
     "tecnologias": ["HTML", "CSS", "React JS."],
     "web": "https://crear-pacientes-caropena.netlify.app/",
     "repositorio": "https://github.com/caropenaIt/crear-pacientes"},
@@ -98,7 +98,7 @@
     { "id": 12,
     "imagen": "assets/odontograma-foto.png",
     "nombre": "Odontograma - MakiSan Tech",
-    "descripcion": "Componente de odontograma funcional que permite elegir tipos de dentición; asignar tratamientos odontológicos al/los dientes y/o sus caras. Realizado para la empresa MakiSan Tech para su programa de pasantías como parte del desarrollo de un sistema de gestión odontológica. Abril-Septiembre 2025.",
+    "descripcion": "MEJOR PROYECTO🥇\n Componente de odontograma funcional que permite elegir tipos de dentición; asignar tratamientos odontológicos al/los dientes y/o sus caras. Realizado para la empresa MakiSan Tech para su programa de pasantías como parte del desarrollo de un sistema de gestión odontológica. Abril-Septiembre 2025.",
     "tecnologias": ["HTML", "CSS", "React JS."],
     "web": "https://odontograma-funcional.netlify.app/",
     "repositorio": "https://github.com/caropenaIt/Odontograma-funcional"},
@@ -117,5 +117,23 @@
     "descripcion": "Integrador del bootcamp de Desarrollo Frontend de Educación IT y Telecom de Digitalers. abarca los módulos 14 al 18 del mismo. Utiliza CSS, HTML y JavaScript. Consiste en poder obtener una cotización rápida de la póliza de seguro para hogar o comercio tomando en cuenta valores como factores multiplicadores y el costo base por metro cuadrado. Septiembre-Octubre 2025.",
     "tecnologias": ["HTML", "CSS", "JavaScript."],
     "web": "https://caropenait.github.io/Cotizador-seguros-CarolinaPena-EducacionIT/",
-    "repositorio": "https://github.com/caropenaIt/Cotizador-seguros-CarolinaPena-EducacionIT"}
+    "repositorio": "https://github.com/caropenaIt/Cotizador-seguros-CarolinaPena-EducacionIT"},
+
+    { "id": 15,
+    "imagen": "assets/plek-proyecto.png",
+    "nombre": "Plek, origami hecho cartera",
+    "descripcion": "MEJOR PROYECTO🥇\n Diseño e implementación de un sistema de generación y cualificación de leads B2B para PLEK. Incluye estrategia de contenido, landing page con formularios inteligentes para recolectar datos de potenciales clientes. Creado y desarrollado en la simulación laboral de No Country para Plek. Marzo-Abril 2026.",
+    "tecnologias": ["Astro", "CSS."],
+    "web": "https://plek-landing-mx.netlify.app/",
+    "repositorio": "https://github.com/No-Country-simulation/S03-26-Equipo-31-CualificacionLeadsPlek"
+},
+
+{ "id": 16,
+    "imagen": "assets/isd-krav-maga.png",
+    "nombre": "Krav Maga ISD - Integral System Defense",
+    "descripcion": "MEJOR PROYECTO🥇\n Sitio web estilo landing page para la academia de Krav Maga ISD(Integral System Defense); el cual cuenta con escuelas(sedes) en Argentina, Chile y Uruguay para aprender y capacitarse en diferentes aspectos de la defensa personal. Mayo 2026.",
+    "tecnologias": ["React JS", "CSS", "HTML."],
+    "web": "https://kravmagainternacional.netlify.app/",
+    "repositorio": "https://github.com/caropenaIt/kravMaga-ISD-IntegralSystemDefense-LandingPage"
+}
 ]

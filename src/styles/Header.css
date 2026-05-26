@@ -1,6 +1,13 @@
 header{
-  background-color: var(--color-titulo);
-  padding: 1rem;
+  background: linear-gradient(135deg, var(--color-titulo) 0%, var(--color-hover) 100%);
+  padding: 1.5rem;
+  box-shadow: 0 4px 15px rgba(26, 58, 82, 0.2);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
 }
 
 header h1,h3{
@@ -15,18 +22,30 @@ header h1,h3{
 nav a{
   margin: 0 1rem;
   text-decoration: none;
-  color: var(--color-boton);
-  background-color: var(--color-titulo);
+  color: white;
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  font-weight: 500;
 }
 nav a:hover{
-  background-color: var(--color-detalle);
-  border-radius: 5px;
+  background-color: var(--color-boton);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 122, 61, 0.3);
 }
 
 a {
   text-decoration: none;
   color: var(--color-boton);
-  background-color:navajowhite;
+  transition: all 0.3s ease;
+  &.active{
+    background-color: var(--color-boton);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+  }
 }
 header h1,
 header h3 {
@@ -37,6 +56,22 @@ header h3 {
  h2{
   color: var(--color-titulo);
   font-family: "Rubik", sans-serif;
+  font-size: 2.5rem;
+  margin: 1.5rem 0;
+  position: relative;
+  display: inline-block;
+}
+
+ h2::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 220px;
+  height: 4px;
+  background: var(--color-secundario);
+  border-radius: 2px;
 }
 
 
@@ -45,6 +80,7 @@ header h3 {
 @media (min-width: 320px) and (max-width: 550px){
   p{
     font-size: 14px;
+    text-align: center;
   }
   .logo{
     width: 140px;
@@ -71,6 +107,9 @@ nav{
 }
 
 @media (min-width: 551px) and (max-width: 750px){
+  p{
+    text-align: center;
+  }
   nav{
     display: flex;
     flex-direction: column;
@@ -82,6 +121,8 @@ nav{
 
   }
 
-/* @media (min-width: 751px) and (max-width: 1100px){
-
-} */
+ @media (min-width: 751px) and (max-width: 1100px){
+p{
+  text-align: center;
+}
+} 

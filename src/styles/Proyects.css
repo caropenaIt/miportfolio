@@ -1,4 +1,9 @@
 /* Estilos para Proyects.jsx y Testing.jsx *//* Projects-Mis páginas web */
+#projects, #testing{
+  p{
+    margin: 15px;
+  }
+}
 .tarjetitas{
   display: flex;
   flex-direction: row;
@@ -8,18 +13,27 @@
   
 }
 .tarjetitas article{
-  padding: 10px;
+  padding: 15px;
   width: 640px;
   margin-top: 10px;
-  background-color: var(--color-titulo);
+  background: linear-gradient(135deg, var(--color-titulo) 0%, var(--color-hover) 100%);
   color: var(--color-fondo);
-  box-shadow: 5px 5px 5px 5px rgb(8, 7, 7);
-  border-radius: 10px;
+  box-shadow: 0 8px 25px rgba(26, 58, 82, 0.15);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.tarjetitas article:hover {
+  box-shadow: 0 12px 35px rgba(26, 58, 82, 0.25);
+  transform: translateY(-5px);
 }
 #projects p{
   padding: 5px;
   margin-left: 100px;
   margin-right: 100px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 
 #projects img{
@@ -27,24 +41,38 @@
   height: 200px;
   margin: 5px;
   padding: 5px;
-  transition: 600ms;
+  transition: all 600ms ease;
+  border-radius: 8px;
+  border: 2px solid var(--color-detalle);
 }
 #projects img:hover{
-  transform: scale(1.4);
-  
+  transform: scale(1.2);
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.3);
+}
+
+/* Texto para mejor proyecto */
+.mejor-proyecto {
+  color: gold;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 4px;
 }
 
 /* disable */
 .boton-disabled {
-  display: inline-block;
-  padding: 6px 12px;
-  background-color: #ccc;
-  color: #666;
-  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  background-color: #D0D7DE;
+  color: #656D76;
+  border-radius: 6px;
   cursor: not-allowed;
   margin: 0 4px;
-  font-weight: bold;
+  font-weight: 600;
   text-decoration: none;
+  border: 1px solid #D0D7DE;
+  width: 150px;
 }
 
 /* Responsive */

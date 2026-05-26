@@ -6,7 +6,7 @@ const Footer = () => {
     <footer>
         <img src="assets/logo-dos.png" alt="Logo" className='logo' />
         <div className="retratoBis boton">
-        <p>Sitio web diseñado por y para Carolina Alejandra Pena Astigarraga. Todos los derechos reservados 2025.</p>
+        <p>Sitio web diseñado por y para Carolina Alejandra Pena Astigarraga. Todos los derechos reservados 2026.</p>
         <Link to="/">Volver al inicio</Link>
         </div>
     </footer>

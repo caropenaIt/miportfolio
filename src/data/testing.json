@@ -45,7 +45,7 @@
     "imagenUno": "assets/casos-prueba-mercury.png",
     "imagenDos":"assets/reporte-bug-mercury.png",
     "nombre": "Mercury Tours",
-    "descripcion": "Web-app de Mercury Tours testeado para el curso de QA Manual de CoderHouse. 2025.",
+    "descripcion": "MEJOR PROYECTO🥇\nWeb-app de Mercury Tours testeado para el curso de QA Manual de CoderHouse. 2025.",
     "web": "https://demo.guru99.com/test/newtours/",
     "especificaciones":null,
     "repositorio": "https://github.com/caropenaIt/portfolio-testing/tree/main/entregable%20final-QA-manual-CoderHouse2025"
@@ -56,13 +56,25 @@
         "imagenUno": "assets/caso-pokeapi.png",
         "imagenDos":"assets/bug-pokeapi.png",
         "nombre": "PokeApi(testing de API)",
-        "descripcion": "Testing de PokeApi(la API de Pókemon) para el curso de QA Manual de CoderHouse. 2025.",
+        "descripcion": "MEJOR PROYECTO🥇\nTesting de PokeApi(la API de Pókemon) para el curso de QA Manual de CoderHouse. 2025.",
         "web": "https://pokeapi.co/",
         "especificaciones":null,
         "repositorio": "https://github.com/caropenaIt/portfolio-testing/tree/main/entregable%20final-QA-manual-CoderHouse2025"
     },
+
+     {
+         "id": 7,
+         "imagenUno": "assets/cases.png",
+         "imagenDos":"assets/report.png",
+         "nombre": "Sauce Demo - Testing automatizado con Phyton",
+         "descripcion": "Testing del sitio web de Sauce Demo para el curso de QA Automation de Talento Tech 2026 de la Agencia de Habilidades para el Futuro (Ciudad Autónoma de Buenos Aires). Mayo 2026.",
+         "web": "https://www.saucedemo.com/",
+         "especificaciones":null,
+         "repositorio": "https://github.com/caropenaIt/pre-entrega-automation-testing-CarolinaAlejandraPenaAstigarraga"
+     },
+
     {
-        "id": 7,
+        "id": 8,
         "imagenUno": "assets/talento-casos.png",
         "imagenDos":"assets/bug-talentolab.png",
         "nombre": "Talento Lab",
@@ -71,4 +83,6 @@
         "especificaciones":"https://drive.google.com/file/d/1XSYOqzvciqGHfs3FfhodG9mShF5SA7AQ/view?usp=sharing",
         "repositorio": "https://github.com/caropenaIt/portfolio-testing/tree/main/QA%20manual-TalentoTech2025"
     }
+
+
 ]

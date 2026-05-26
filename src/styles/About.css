@@ -1,13 +1,17 @@
 /* About-Quien soy */
+p{
+  text-align: center;
+}
 .retrato{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--color-titulo);
+  background: linear-gradient(135deg, var(--color-titulo) 0%, var(--color-hover) 100%);
   color: var(--color-fondo);
-  box-shadow: 5px 5px 5px 5px rgb(8, 7, 7);
-  border-radius: 10px;
+  box-shadow: 0 8px 25px rgba(26, 58, 82, 0.25);
+  border-radius: 15px;
   margin-top: 10px;
+  border: 2px solid var(--color-detalle);
 }
 .retrato img{
   width: 300px;
@@ -17,10 +21,12 @@
 .retratoBis{
   display: flex;
   flex-direction: column;
+  text-align: left;
 }
 section {
   padding: 2rem;
-  border-bottom: 1px solid var(--color-titulo);
+  border-bottom: 2px solid var(--color-detalle);
+  text-align: center;
 }
 .boton{
   display: flex;
@@ -28,23 +34,55 @@ section {
   justify-content: center;
   gap: 10px;
   padding: 15px;
+  text-align: center;
 }
 .boton a{
-  color: var(--color-boton);
-  background-color: var(--color-titulo);
-  width: 135px;
-  border-radius: 10px;
+  color: white;
+  background: linear-gradient(135deg, var(--color-boton) 0%, #FF6B35 100%);
+  width: 150px;
+  border-radius: 8px;
+  padding: 10px;
+  transition: all 0.3s ease;
+  font-weight: 600;
 }
 
 .boton a:hover{
-background-color: var(--color-detalle);
+  background: linear-gradient(135deg, #FF6B35 0%, var(--color-boton) 100%);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(255, 122, 61, 0.4);
+}
+
+
+.botton-download {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 15px;
+}
+
+.download-btn {
+  background: linear-gradient(135deg, var(--color-boton) 0%, #FF6B35 100%);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.download-btn:hover {
+  background: linear-gradient(135deg, #FF6B35 0%, var(--color-boton) 100%);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(255, 122, 61, 0.4);
 }
 
 @media (min-width: 320px) and (max-width: 550px){
 
 .retrato{
   flex-wrap: wrap;
-  width: 270px;
+  width: 100%;
 }
 .retrato img{
   width: 200px;
@@ -57,15 +95,14 @@ background-color: var(--color-detalle);
 }
 
 .boton{
-  padding: 5px;
+  padding: 10px;
   gap: 5px;
   font-size: 12px;
+  display: flex;
+  flex-direction: column;
 }
 
-.boton{
-  padding: 5px;
 
-}
 
 
 
@@ -79,14 +116,24 @@ background-color: var(--color-detalle);
   }
   .retrato{
     flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
   }
   .retrato p{
     padding: 5px;
   }
-
   }
 
 @media (min-width: 751px) and (max-width: 1100px){
+    .retrato{
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 5px;
+  }
   .retrato p{
     padding: 5px;
     margin-top: 10px;

@@ -1,11 +1,45 @@
 /* Contact-Contacto */
+#contact{
+    p{
+    margin: 15px;
+    }
+}
 ul{
   list-style-type: none;
+  text-align: center;
+  margin-top: 20px;
 }
+
+ul li {
+  margin: 15px 0;
+  padding: 12px;
+  background: white;
+  border-radius: 8px;
+  border-left: 4px solid var(--color-boton);
+  box-shadow: 0 2px 8px rgba(26, 58, 82, 0.1);
+  transition: all 0.3s ease;
+}
+
+ul li:hover {
+  box-shadow: 0 4px 12px rgba(26, 58, 82, 0.15);
+  transform: translateX(5px);
+}
+
+ul a {
+  color: var(--color-boton);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+ul a:hover {
+  color: var(--color-secundario);
+}
+
 .loguitos{
   width: 20px;
   height: 20px;
   gap: 15px;
+  margin-right: 10px;
 }
 
 /* @media (min-width: 320px) and (max-width: 550px){
