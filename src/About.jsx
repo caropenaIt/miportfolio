@@ -13,7 +13,7 @@ const About = () => {
         <div className='boton'>
           <a href="https://github.com/caropenaIt"target='blank'>Mi GitHub</a>
           <a href="https://www.linkedin.com/in/carolina-pena-astigarraga/" target="blank">Mi LinkedIn</a>
-          <a href="assets/CV_FrontendDev_QA_Carolina_Pena_Astigarraga.pdf" download>Descargar CV</a>
+          <a href="assets/CarolinaAlejandraPenaAstigarraga-Frontend-QA-CV.pdf" download>Descargar CV</a>
         </div>
       </div>
     </div>

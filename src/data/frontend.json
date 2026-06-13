@@ -5,7 +5,7 @@
     "nombre": "Las Hamburguesas + Ricas",
     "descripcion": "Mi primer sitio web, creado para el curso de Desarrollo Web de CoderHouse en 2022. El mismo trata de una hamburguesería ficticia que cuenta con varias secciones como el menú, contacto, entre otros.",
     "tecnologias": ["HTML", "CSS", "SASS/SCSS", "BootStrap."],
-    "web": "https://las-hamburguesas-mas-ricas.netlify.app/",
+    "web": "https://caropenait.github.io/Hamburguesas-Coder-CPena/",
     "repositorio": "https://github.com/caropenaIt/Hamburguesas-Coder-CPena"
     },
 
@@ -15,7 +15,7 @@
         "nombre": "Amazing Events",
         "descripcion": "Sitio web creado en el bootcamp de frontend de Mindhub X Argentina Programa 4.0. página sobre eventos de todo tipo. Incluye detalles, filtros y un buscador. Hecho en el año 2023.",
         "tecnologias": ["HTML", "CSS", "JavaScript."],
-        "web": "https://amazingevents-mindhub-project.netlify.app/",
+        "web": "https://caropenait.github.io/AMAZINGEVENTS_Pena-Astigarraga/",
         "repositorio": "https://github.com/caropenaIt/AMAZINGEVENTS_Pena-Astigarraga"
     },
 
@@ -25,7 +25,7 @@
         "nombre": "Mighty Ducks Hockey League-MDHL",
         "descripcion": "Sitio web creado en el bootcamp de frontend de Mindhub X Argentina Programa 4.0; es acerca de un club de hockey sobre hielo donde se aplicaron estilos básicos de CSS. Año 2023.",
         "tecnologias": ["HTML", "CSS."],
-        "web": "https://mdhl-mindhubproyect.netlify.app/",
+        "web": "https://caropenait.github.io/MDHL_Pena_Astigarraga/",
         "repositorio": "https://github.com/caropenaIt/MDHL_Pena_Astigarraga"
     },
 
@@ -44,7 +44,7 @@
     "nombre": "Turnos Hair Salon",
     "descripcion": "Simulador para sacar turnos en una peluquería; los datos del turno se guardan en el local storage. Hecho para Coderhouse por la Carrera de Desarrollo Frontend React 2024(curso JavaScript).",
     "tecnologias": ["HTML", "CSS", "JavaScript."],
-    "web": "https://turnos-peluqueria-hair-saloon.netlify.app/",
+    "web": "https://caropenait.github.io/simulador-turnos-JS-CoderHouse-CaroPena/",
     "repositorio": "https://github.com/caropenaIt/simulador-turnos-JS-CoderHouse-CaroPena"},
 
     { "id": 6,
@@ -52,7 +52,7 @@
     "nombre": "Cabañas La Colmena",
     "descripcion": "Sitio web sobre un complejo de cabañas en el sur de mi pais(Argentina, ficticio). Hecho para Coderhouse por la Carrera de Desarrollo Frontend React 2024(curso Desarrollo Web).",
     "tecnologias": ["HTML", "CSS", "SASS/SCSS", "BootStrap."],
-    "web": "https://cabanas-la-colmena.netlify.app/",
+    "web": "https://caropenait.github.io/Cabanas-la-colmena-Coderhouse-desarrollo-web/",
     "repositorio": "https://github.com/caropenaIt/Cabanas-la-colmena-Coderhouse-desarrollo-web"},
 
     { "id": 7,
@@ -68,7 +68,7 @@
     "nombre": "DOMO Frontend Challenge",
     "descripcion": "Landing Page creada para la empresa DOMO como parte del desafío técnico 'Domo Frontend Challenge'; el cual consistía crear una landing page imitando el modelo de la imagen elegida. Febrero 2025.",
     "tecnologias": ["HTML", "CSS", "JavaScript", "BootStrap."],
-    "web": "https://carolinapena-challenge-frontend-domo1.netlify.app/",
+    "web": "https://caropenait.github.io/domofrontendchallenge-test1/",
     "repositorio": "https://github.com/caropenaIt/domofrontendchallenge-test1"},
 
     { "id": 9,
@@ -84,7 +84,7 @@
     "nombre": "Agencia WWWapas",
     "descripcion": "Proyecto integrador que conforma los primeros 5 módulos(1 al 5) del curso de Desarrollo Frontend React JS del programa Digitalers de Telecom y Educación IT. Desarrollado con HTML, CSS, y un toque de JavaScript para comprobar el envío de formulario. Mayo-Julio 2025.",
     "tecnologias": ["HTML", "CSS."],
-    "web": "https://wwwapas-educacionit-2025.netlify.app/",
+    "web": "https://caropenait.github.io/wwwapas-educacionIT-Pena/",
     "repositorio": "https://github.com/caropenaIt/wwwapas-educacionIT-Pena"},
 
     { "id": 11,
