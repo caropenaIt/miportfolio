@@ -129,11 +129,28 @@
 },
 
 { "id": 16,
-    "imagen": "assets/isd-krav-maga.png",
+    "imagen": "assets/krav-actual.png",
     "nombre": "Krav Maga ISD - Integral System Defense",
-    "descripcion": "MEJOR PROYECTO🥇\n Sitio web estilo landing page para la academia de Krav Maga ISD(Integral System Defense); el cual cuenta con escuelas(sedes) en Argentina, Chile y Uruguay para aprender y capacitarse en diferentes aspectos de la defensa personal. Mayo 2026.",
+    "descripcion": "MEJOR PROYECTO🥇\n Sitio web estilo landing page para la academia de Krav Maga ISD(Integral System Defense); el cual cuenta con escuelas(sedes) en Argentina, Chile y Uruguay para aprender y capacitarse en diferentes aspectos de la defensa personal. Mayo-Julio 2026.",
     "tecnologias": ["React JS", "CSS", "HTML."],
-    "web": "https://kravmagainternacional.netlify.app/",
+    "web": "https://kravmagainternacional.com.ar/",
     "repositorio": "https://github.com/caropenaIt/kravMaga-ISD-IntegralSystemDefense-LandingPage"
+},
+
+{ "id": 17,
+    "imagen": "assets/MoodMusic.png",
+    "nombre": "Mood Music - CoderCup IA Agosto 2026",
+    "descripcion": "MEJOR PROYECTO🥇\n Proyecto IA First que recibe estados de ánimo/sentimientos en un prompt y devuelve un listado de canciones acorde al tema con link a Youtube para escucharlos. Se utilizó IA(GitHub Copilot, Cursor y Gemini) para acelerar el proceso y como requisito de la CoderCup IA de desarrollar un producto para resolver un problema. Agosto 2026.",
+    "tecnologias": ["React JS", "CSS", "HTML."],
+    "web": "https://ai-moodmusic.netlify.app/",
+    "repositorio": "https://github.com/caropenaIt/MoodMusic-CoderCupIA-PrimeraEdicion2026"
+},
+{ "id": 18,
+    "imagen": "assets/SplitFlow.png",
+    "nombre": "SplitFlow - Experiencia Digital para Gestionar Gastos Compartidos",
+    "descripcion": "MEJOR PROYECTO🥇\n  Web-app para dividir gastos compartidos,  sin perder de vista quién debe qué. Desarrollado y creado para la simulación laboral de No Country. Agosto - Octubre 2026.",
+    "tecnologias": ["React JS", "CSS", "GitHub Copilot", "Spring Boot."],
+    "web": "https://splitflow-frontend.onrender.com/",
+    "repositorio": "https://github.com/No-Country-simulation/S08-26-equipo-29"
 }
 ]

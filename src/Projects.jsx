@@ -19,6 +19,7 @@ const Projects = () => {
 
       <h2>Mis páginas web</h2>
       <p>Mis sitios web y web-apps que he desarrollado hasta el momento(incluyendo el portfolio) como desarrolladora frontend. Los mismos se encuentran ordenados de más a menos recientes, con proyectos destacados entre ellos.</p>
+      <p>Las etiquetas<span className="mejor-proyecto">"MEJOR PROYECTO🥇"</span>son a criterio personal por la complejidad técnica y la creatividad implementadas en cada uno.</p>
       <div className='tarjetitas'>
         {[...frontend].reverse().map((project) => (
           <article key={project.id}>

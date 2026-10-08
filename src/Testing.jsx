@@ -18,6 +18,7 @@ const Testing = () => {
       <h2>Proyectos de Testing</h2>
       <div>
         <p>Se visualizan algunos de mis proyectos de mi rol de Tester QA. Los mismos se encuentran ordenados de más a menos recientes; con proyectos destacados entre ellos. Para verlos todos ir a: <a href="https://github.com/caropenaIt/portfolio-testing" target="_blank">Ver Repositorio</a></p>
+        <p>Las etiquetas<span className="mejor-proyecto">"MEJOR PROYECTO🥇"</span>son a criterio personal por la complejidad técnica y la creatividad implementadas en cada uno.</p>
       </div>
       <div id='projects'>
       <div className='tarjetitas'>
